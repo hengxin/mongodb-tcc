@@ -1,0 +1,31 @@
+# References
+
+## Prerequisites
+- [mongodb.com](https://www.mongodb.com/)
+  - Join [MongoDB Developer Community](https://www.mongodb.com/community/forums/)
+
+## Basics
+- [MongoDB University: Learning Path for MongoDB Developers](https://university.mongodb.com/learning_paths/developer)
+- [MongoDB Documentation](https://www.mongodb.com/docs/)
+  - [CRUD](https://www.mongodb.com/docs/manual/crud/)
+  - [Replication](https://www.mongodb.com/docs/manual/replication/)
+  - [Sharding](https://www.mongodb.com/docs/manual/sharding/)
+  - [Causal Consistency](https://www.mongodb.com/docs/manual/core/causal-consistency-read-write-concerns/)
+  - [Transactions](https://www.mongodb.com/docs/manual/core/transactions/)
+- [MongoDB Specifications](https://github.com/mongodb/specifications)
+  - [CRUD](https://github.com/mongodb/specifications/blob/master/source/crud/crud.rst)
+  - [Causal Consistency](https://github.com/mongodb/specifications/blob/master/source/causal-consistency/causal-consistency.rst)
+  - [Transactions](https://github.com/mongodb/specifications/blob/master/source/transactions/transactions.rst)
+
+## Advanced
+- [Source Code Learning](https://github.com/mongodb/mongo)
+  - [Paper: VerifyMongoDBTX2022](https://arxiv.org/abs/2111.14946)
+  - [y123456yz / reading-and-annotate-mongodb-3.6](https://github.com/y123456yz/reading-and-annotate-mongodb-3.6)
+  - [y123456yz / reading-and-annotate-mongodb-4.4](https://github.com/y123456yz/reading-and-annotate-mongodb-4.4)
+  - [Notes](https://github.com/Tsunaou/Papers-Reading-Notes/tree/master/Notes)
+
+## Ultimate Goals
+- To be determined
+
+## Miscellaneous
+- [Some Random Notes on MongoDB](https://github.com/hengxin/awesome-dbs/tree/master/MongoDB)
