@@ -17,7 +17,7 @@
   - [Causal Consistency](https://github.com/mongodb/specifications/blob/master/source/causal-consistency/causal-consistency.rst)
   - [Transactions](https://github.com/mongodb/specifications/blob/master/source/transactions/transactions.rst)
 
-## Causal Consistency
+## Causal Consistency (CC)
 - [Clock:CACM1978](CACM1978%20Time%20Clocks%20and%20the%20Ordering%20of%20Events%20in%20a%20Distributed%20System.pdf)
   - 看到 P562 左栏
 - [CM:DC1995](DC1995%20Causal%20Memory%20Definitions%20Implementation%20and%20Programming.pdf)
@@ -31,7 +31,7 @@
   - [SIGMOD2019 Video](https://www.bilibili.com/video/BV1JY4y1e7bw?share_source=copy_web)
   - [MongoDB Presentation Video](https://www.mongodb.com/presentations/implementation-of-cluster-wide-causal-consistency-in-mongodb)
 - [MongoDB-CMv:SRDS2020](./SRDS2020%20A%20Generic%20Specification%20Framework%20for%20Weakly%20Consistent%20Systems.pdf)
-  - 只需看 Section V.A 与 V.B
+  - 只需看 Section V.A 与 V.B (用动画形式展示协议过程)
   - [SRDS2020 Presentation Video](https://www.bilibili.com/video/BV1LF411G7ip?share_source=copy_web)
     - From 16:45
 - [MongoDB-TC:VLDB2019](./VLDB2019%20Tunable%20Consistency%20in%20MongoDB.pdf)
@@ -41,6 +41,9 @@
   - 全文阅读
   - [MongoDB数据一致性协议的规约与测试](https://www.bilibili.com/video/BV1Zq4y1F78g?share_source=copy_web)
 
+## Transactional Causal Consistency (TCC)
+- [Cure:ICDCS2016](./ICDCS2016%20Cure%20Strong%20Semantics%20Meets%20High%20Availability%20and%20Low%20Latency.pdf)
+  - 看到 Section III (用动画形式展示协议过程); 前三节内容对本项目都非常重要
 ## Advanced
 - [Source Code Learning](https://github.com/mongodb/mongo)
   - [y123456yz / reading-and-annotate-mongodb-3.6](https://github.com/y123456yz/reading-and-annotate-mongodb-3.6)
