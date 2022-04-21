@@ -1,2 +1,2 @@
 # mongodb-tcc
-Design and Implemention of TCC (Transactional Causal Consistency) in MongoDB
+Design and Implementation of TCC (Transactional Causal Consistency) in MongoDB

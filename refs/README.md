@@ -17,6 +17,14 @@
   - [Causal Consistency](https://github.com/mongodb/specifications/blob/master/source/causal-consistency/causal-consistency.rst)
   - [Transactions](https://github.com/mongodb/specifications/blob/master/source/transactions/transactions.rst)
 
+## Causal Consistency
+- [Clock:CACM1978](CACM1978%20Time%20Clocks%20and%20the%20Ordering%20of%20Events%20in%20a%20Distributed%20System.pdf)
+  - 看到 P562 左栏
+- [CM:DC1995](DC1995%20Causal%20Memory%20Definitions%20Implementation%20and%20Programming.pdf)
+  - 看到 Section 5 (证明部分可以暂时不看)
+- [HLC:OPODIS2014](OPODIS2014%20Logical%20Physical%20Clocks.pdf)
+  - 看到 Section 3
+
 ## Protocols (In this Order)
 - [MongoDB-CC:SIGMOD2019](./SIGMOD2019%20Implementation%20of%20Cluster-wide%20Logical%20Clock%20and%20Causal%20Consistency%20in%20MongoDB.pdf)
   - 全文阅读, 重点在 Section 4, Section 5, Appendix A1, Appendix A2
@@ -40,7 +48,7 @@
   - [Notes](https://github.com/Tsunaou/Papers-Reading-Notes/tree/master/Notes)
 
 ## Ultimate Goals
-- To be determined
+- To design and implement TCC in MongoDB
 
 ## Miscellaneous
 - [Some Random Notes on MongoDB](https://github.com/hengxin/awesome-dbs/tree/master/MongoDB)
