@@ -3,4 +3,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Preliminaries}  \label{section:preliminaries}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{MongoDB} \label{ss:mongodb}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Transactional Causal Consistency} \label{ss:tcc}
+
+FaaSTCC~\cite{FaaSTCC:Middleware2021}:
+``TCC combines the following guarantees: Transactions read from a causally consistent snapshot,
+which represents a view of the data store that includes the effects of all transactions that causally precede it;
+A transaction updating multiple objects respects atomicity, i.e., all updates occur and are made visible simultaneously,
+or none does. Applying updates in this fashion creates a new causally consistent snapshot of the store.''
+``TCC is weaker than SI and allows concurrent transactions to write on the same set of keys.''
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
